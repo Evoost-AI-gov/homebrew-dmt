@@ -7,6 +7,7 @@ class Dmt < Formula
   sha256 "438ad3fb5ac216a47d02e0e48602ea1752495fc19ee5a7ba4573d54f50d91db7"
   license :cannot_represent  # proprietary — DMT internal
 
+  depends_on "rust" => :build  # cryptography builds from source
   depends_on "python@3.13"
 
   # The CLI talks to the governed gateway over HTTP; these are its only
