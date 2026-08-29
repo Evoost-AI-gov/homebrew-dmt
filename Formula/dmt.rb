@@ -178,7 +178,7 @@ class Dmt < Formula
   end
 
   def install
-    virtualenv_install_with_resources(with: "cli")
+    virtualenv_install_with_resources
   end
 
   test do
