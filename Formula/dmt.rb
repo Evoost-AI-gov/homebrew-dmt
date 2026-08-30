@@ -4,7 +4,7 @@ class Dmt < Formula
   desc "DMT Council CLI — the governed council chat, in your terminal"
   homepage "https://github.com/Evoost-AI-gov/dmt-ai-services"
   url "https://github.com/Evoost-AI-gov/homebrew-dmt/raw/main/dist/dmt_ai_services-0.5.0.tar.gz"
-  sha256 "89e7444f3ad7890a77592c5250763f688cf4c444df15441b6da2654723915408"
+  sha256 "e775f07e4cc61180be953eeafc150398df7c5c479a7ca6157b9ffcff6bf0d3ad"
   license :cannot_represent  # proprietary — DMT internal
 
   depends_on "rust" => :build  # cryptography builds from source
